@@ -28,6 +28,8 @@ A mildly opinionated bare-bones react boilerplate.
    - Create new repository on Github, ..etc
    - Change master: `git remote set-url origin https://github.com/YOUR_NEW_REPO.git`
    - push code to new master: `git push -u origin master`
+    If you are having merging errors. It is likely due to trying to merge two branches that do not yet share a common base. IE you started the repo with files and then tried to merge the starter at a later date. To fix this issue you must first pull down the other branch, merge, then push the newly merged branch to the master.
+    - git pull origin "branchname" --allow-unrelated-histories 
 
 ## Running Dev Server / Building
 
