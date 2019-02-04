@@ -35,9 +35,11 @@ A mildly opinionated bare-bones react boilerplate.
 
 1. Run `npm run dev` on the command line.
 
-   This will tell Parcel to build a development copy on localhost. The default port is 1234, but Parcel may choose another if there are any conflicts. The location of the dev site will be listed in the command line.
+   This will tell Parcel to build a development copy on localhost. The default port is 1234, but Parcel may choose another if there are any conflicts. The location of the dev site will be listed in the command line with a hyperlink navigating to it.
 
-1. Code something awesome!!
+1. Check out your dev server at http://localhost:1234, or at http://localhost:xxxx if the default server was taken. You should see a bare bones message "React is running!" if all is well.
+
+1. Code something awesome!! Any saved changes to your codebase should be echoed to your browser via the magic of Parcel :)
 
 ## Prettier / ESlint
 
